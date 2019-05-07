@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Data-Structure
+//  A02线性表
 //
 //  Created by qingmei2 on 2019/5/7.
 //  Copyright © 2019 qingmei2. All rights reserved.
