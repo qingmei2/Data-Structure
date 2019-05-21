@@ -6,7 +6,7 @@
 //
 
 #include <stdio.h>
-#include "SequenceList.c"
+#include "SequenceList.h"
 
 // 若 data > e 返回true， 否则返回false
 Status CmpGreater(LElemType_Sq e, LElemType_Sq data)
