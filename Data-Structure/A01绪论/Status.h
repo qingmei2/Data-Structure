@@ -38,7 +38,7 @@ typedef int Status;
 {\
     double _Loop_Num_;\
     for(_Loop_Num_ = 0.01; _Loop_Num_ <= 100000.0*x; _Loop_Num_ += 0.01)\
-    ;
+    ;\
 }
 
 // 点击Enter键继续

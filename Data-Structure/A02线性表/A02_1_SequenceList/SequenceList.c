@@ -9,7 +9,7 @@
 #ifndef SequenceList_c
 #define SequenceList_c
 
-#include <SequenceList.h>
+#include "SequenceList.h"
 
 // 算法2.3
 Status InitList_Sq(SqList *L)
@@ -135,7 +135,7 @@ Status ListInsert_Sq(SqList *L, int i, LElemType_Sq e)
 }
 
 // 算法2.5 删除顺序表上第i个元素，并用e返回
-Status ListDelete_Sq(SqList *L, int i, LElemType_Sq e)
+Status ListDelete_Sq(SqList *L, int i, LElemType_Sq *e)
 {
     LElemType_Sq *p, *q;
     
