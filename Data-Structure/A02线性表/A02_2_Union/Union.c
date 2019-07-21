@@ -10,6 +10,7 @@
 #define UNION_C
 
 #include <stdio.h>
+
 #include "Union.h"
 #include "../A02_1_SequenceList/SequenceList.c"
 
