@@ -17,6 +17,8 @@
 		0CF090F922E49CDD00F28891 /* MergeSqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF090F822E49CDD00F28891 /* MergeSqList.c */; };
 		0CF0910222E89CCF00F28891 /* SingleLinkedList_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0910122E89CCF00F28891 /* SingleLinkedList_main.c */; };
 		0CF0910722E89D0900F28891 /* SingleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0910622E89D0900F28891 /* SingleLinkedList.c */; };
+		0CF0911022E9FA4D00F28891 /* MergeLinkList_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0910F22E9FA4D00F28891 /* MergeLinkList_main.c */; };
+		0CF0911622E9FAAF00F28891 /* MergeLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0911522E9FAAF00F28891 /* MergeLinkedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +76,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0CF0910B22E9FA4D00F28891 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +109,10 @@
 		0CF0910122E89CCF00F28891 /* SingleLinkedList_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SingleLinkedList_main.c; sourceTree = "<group>"; };
 		0CF0910622E89D0900F28891 /* SingleLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SingleLinkedList.c; sourceTree = "<group>"; };
 		0CF0910822E89F6100F28891 /* SingleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleLinkedList.h; sourceTree = "<group>"; };
+		0CF0910D22E9FA4D00F28891 /* A02_5_MergeLinkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = A02_5_MergeLinkList; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF0910F22E9FA4D00F28891 /* MergeLinkList_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeLinkList_main.c; sourceTree = "<group>"; };
+		0CF0911422E9FA9900F28891 /* MergeLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeLinkedList.h; sourceTree = "<group>"; };
+		0CF0911522E9FAAF00F28891 /* MergeLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeLinkedList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +158,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CF0910A22E9FA4D00F28891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +186,7 @@
 				0CF090E222E492C000F28891 /* A02_2_Union */,
 				0CF090F022E49B1800F28891 /* A02_3_MergeSqList */,
 				0CF090FF22E89CCF00F28891 /* A02_4_SingleLinkedList */,
+				0CF0910D22E9FA4D00F28891 /* A02_5_MergeLinkList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +203,7 @@
 		0C2FED742281A11E007116D4 /* A02线性表 */ = {
 			isa = PBXGroup;
 			children = (
+				0CF0910E22E9FA4D00F28891 /* A02_5_MergeLinkList */,
 				0CF0910022E89CCF00F28891 /* A02_4_SingleLinkedList */,
 				0CF090F122E49B1800F28891 /* A02_3_MergeSqList */,
 				0CF090E322E492C000F28891 /* A02_2_Union */,
@@ -227,6 +251,16 @@
 				0CF0910622E89D0900F28891 /* SingleLinkedList.c */,
 			);
 			path = A02_4_SingleLinkedList;
+			sourceTree = "<group>";
+		};
+		0CF0910E22E9FA4D00F28891 /* A02_5_MergeLinkList */ = {
+			isa = PBXGroup;
+			children = (
+				0CF0910F22E9FA4D00F28891 /* MergeLinkList_main.c */,
+				0CF0911422E9FA9900F28891 /* MergeLinkedList.h */,
+				0CF0911522E9FAAF00F28891 /* MergeLinkedList.c */,
+			);
+			path = A02_5_MergeLinkList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +368,23 @@
 			productReference = 0CF090FF22E89CCF00F28891 /* A02_4_SingleLinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
+		0CF0910C22E9FA4D00F28891 /* A02_5_MergeLinkList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF0911322E9FA4D00F28891 /* Build configuration list for PBXNativeTarget "A02_5_MergeLinkList" */;
+			buildPhases = (
+				0CF0910922E9FA4D00F28891 /* Sources */,
+				0CF0910A22E9FA4D00F28891 /* Frameworks */,
+				0CF0910B22E9FA4D00F28891 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A02_5_MergeLinkList;
+			productName = A02_5_MergeLinkList;
+			productReference = 0CF0910D22E9FA4D00F28891 /* A02_5_MergeLinkList */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -361,6 +412,9 @@
 					0CF090FE22E89CCF00F28891 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					0CF0910C22E9FA4D00F28891 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 0C2FED5F22819C67007116D4 /* Build configuration list for PBXProject "Data-Structure" */;
@@ -381,6 +435,7 @@
 				0CF090E122E492C000F28891 /* A02_2_Union */,
 				0CF090EF22E49B1800F28891 /* A02_3_MergeSqList */,
 				0CF090FE22E89CCF00F28891 /* A02_4_SingleLinkedList */,
+				0CF0910C22E9FA4D00F28891 /* A02_5_MergeLinkList */,
 			);
 		};
 /* End PBXProject section */
@@ -435,6 +490,15 @@
 			files = (
 				0CF0910722E89D0900F28891 /* SingleLinkedList.c in Sources */,
 				0CF0910222E89CCF00F28891 /* SingleLinkedList_main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF0910922E9FA4D00F28891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF0911022E9FA4D00F28891 /* MergeLinkList_main.c in Sources */,
+				0CF0911622E9FAAF00F28891 /* MergeLinkedList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +716,22 @@
 			};
 			name = Release;
 		};
+		0CF0911122E9FA4D00F28891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CF0911222E9FA4D00F28891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -714,6 +794,15 @@
 			buildConfigurations = (
 				0CF0910322E89CCF00F28891 /* Debug */,
 				0CF0910422E89CCF00F28891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF0911322E9FA4D00F28891 /* Build configuration list for PBXNativeTarget "A02_5_MergeLinkList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF0911122E9FA4D00F28891 /* Debug */,
+				0CF0911222E9FA4D00F28891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
